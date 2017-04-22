@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="John Doe">
     <meta name="description" content="null">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="axios94,Android,Running,Reading">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
@@ -318,6 +318,15 @@
 
     <!-- Qrcode -->
     
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">devices other</i>
+            <span class="visuallyhidden">devices other</span>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+            <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACZ0lEQVR42u3aS2rEMBAFwLn/pZNtIETznn5xQmlljJBVHnD3dOv18a/HCw8PDw8PDw8P72G8Vzy+zv9+/ePDfpjzfeXxnGRveHh4eDd5+Rbzx7TbzV/NeA4eHh7eTV4bDJIgMZ4zvtPuDQ8PD++ZvPHM4vM9lb7j4eHh/UVeO2cunODh4eH9Fd7cZz1qSsVF21+uteDh4eHFvPUG2LnrR/T38PDw8I6NlYZWHmbe7AEPDw/vMK8tsCYFgrY8sbJa/Y8BDw8PbxMvL7Pmd8YbXWl9vQkweHh4eId5ebK70qxq189fWVSMwMPDw9vKyxPZNl2eA4/XiUoeeHh4eId5CaP9uCfHqpJNzxWF8fDw8E7z2vR3LhVuyxxzx1vx8PDwbvJWwkPe6NrVBqur1Hh4eHhXeHOMNgWfS9DrMi4eHh7eVl6bNOchZG9po0j08fDw8K7w8uJpUorNX03bDIvSbjw8PLzDvPbPf5uCrxxFbfeDh4eHd5OXFwjG22pbYvlqS8dV8fDw8A7wTrS1WmQbivDw8PCew1tJatfbZi04OjqAh4eHd4CXfKzzRtdcOTg/2vUmpOHh4eFd5OXNrfUWV9vc2hAY8PDw8Lby8kJDHlTyllhbzH3zw+Dh4eEd5rUjP4p6+gAWHh4e3m/xVj7H7YGt9v7mlBoPDw9vKy8PBuvtsTbV3hAY8PDw8I7xVkqoebqcHCCYa4nh4eHhPZ9XP7hM0/OjBnh4eHhP5s3NnCs6jOfj4eHhPYGXN71WSgb5anm5GQ8PD+8+r22ArTS3koS7xePh4eHd5P2/gYeHh4eHh4eH94DxCXzrct6I48yPAAAAAElFTkSuQmCC">
+        </ul>
+    
 
     <!-- Tags (bookmark) -->
     
@@ -381,6 +390,12 @@
     
 
     <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Hexo&title=my-second-blog&summary=null&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2017/04/20/my-second-blog/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
     
 
     <!-- Share Telegram -->
@@ -469,7 +484,7 @@
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        youremail@email.com
+        http://axios94@foxmail.com
         <b class="caret"></b>
     </a>
 </div>
@@ -482,9 +497,7 @@
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="#" target="_blank" title="Email Me">
-                        
-                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                    <a href="null" target="_blank" title="Email Me">
                         
                         Email Me
                     </a>
@@ -526,6 +539,21 @@
 
     <!-- Categories  -->
     
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                
+            </ul>
+        </li>
+        
+    
 
     <!-- Pages  -->
     
@@ -541,6 +569,14 @@
     
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">3</span>
+            </a>
+        </li>
+        
     
 </ul>
 
@@ -563,26 +599,40 @@ It will not impact the appearance and can give developers a lot of support :)
 
 <!-- Theme Material -->
 
-    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
-        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
-            主题 - Material
-            <span class="sidebar-badge badge-circle">i</span>
-        </div>
-    </a>
-
 
 <!-- Help & Support -->
 <!--
+
+    <a href="mailto:hiviosey@gmail.com" class="sidebar-footer-text-a">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+        sidebar.help
+        <span class="mdl-button__ripple-container">
+          <span class="mdl-ripple"></span>
+        </span>
+      </div>
+    </a>
 
 -->
 
 <!-- Feedback -->
 <!--
 
+    <a href="https://github.com/viosey/hexo-theme-material/issues" target="_blank" class="sidebar-footer-text-a">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+        sidebar.feedback
+        <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></div>
+    </a>
+
 -->
 
 <!-- About Theme -->
 <!--
+
+    <a href="https://blog.viosey.com/index.php/Material.html" target="_blank" class="sidebar-footer-text-a">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+             sidebar.about_theme
+            <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></div>
+    </a>
 
 -->
 
@@ -612,16 +662,10 @@ It will not impact the appearance and can give developers a lot of support :)
         <div class="mdl-mini-footer--left-section sns-list">
     <!-- Twitter -->
     
-        <a href="https://twitter.com/twitter" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
-                <span class="visuallyhidden">Twitter</span>
-            </button><!--
-     --></a>
-    
 
     <!-- Facebook -->
     
-        <a href="https://www.facebook.com/facebook" target="_blank">
+        <a href="https://www.facebook.com/profile.php?id=100011390206328" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
                 <span class="visuallyhidden">Facebook</span>
             </button><!--
@@ -630,14 +674,14 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Google + -->
     
-        <a href="https://www.google.com/" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
-                <span class="visuallyhidden">Google Plus</span>
-            </button><!--
-     --></a>
-    
 
     <!-- Weibo -->
+    
+        <a href="http://weibo.com/2403305844/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-weibo.svg);">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
     
 
     <!-- Instagram -->
@@ -648,11 +692,23 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Github -->
     
+        <a href="https://github.com/axios94" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-github.svg);">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
 
     <!-- LinkedIn -->
     
 
     <!-- Zhihu -->
+    
+        <a href="https://www.zhihu.com/people/da-fen-qi-68-46/activities" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-zhihu.svg);">
+                <span class="visuallyhidden">Zhihu</span>
+            </button><!--
+     --></a>
     
 
     <!-- Bilibili -->
